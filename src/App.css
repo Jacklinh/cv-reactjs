@@ -1,0 +1,104 @@
+:root {
+    --main-bg: #f3f6f6;
+    --main-borderColor: #e3e3e3;
+    --main-color: #7b7b7b;
+    --main-color-hover: #fa5252;
+    --main-bg-education: #fff4f4;
+    --main-bg-experience: #eef5fa;
+    --main-color2: #44566c;
+}
+#root {
+    width: 100%;
+}
+.bg_home {
+    background: url(../public/images/bg_home.jpg) top center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.sec_cv {
+    gap: 0 40px;
+}
+
+.cv_avatar {
+    width: 400px;
+}
+.cv_content {
+    flex: 1;
+}
+.social_btn {
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    background-color: #ffffff;
+    color: #e93b81;
+    transition: background-image ease-in-out 0.3s;
+}
+.social_blue {
+    background-color: var(--main-bg);
+    color: #1773ea;
+}
+.social_btn:hover {
+    background-image: linear-gradient(to right,#fa5252,#dd2476);
+    color: #ffffff;
+}
+.cv_content {
+    background-color: #ffffff;
+    color: #222222;
+    padding: 40px;
+    border-radius: 20px;
+}
+.box_article {
+    margin-bottom: 30px;
+}
+.heading {
+    text-transform: uppercase;
+    font-size: 1.625rem;
+    color: var(--main-color);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sub_heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.sub_heading span {
+    color: var(--main-color-hover);
+    margin-right: 10px;
+}
+.sub_heading span svg {
+    font-size: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.cv_row2 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.cv_row2 .cv_col {
+    width: calc((100% - 30px) / 2);
+}
+.copyright {
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .cv_avatar {
+        width: 100%;
+    }
+    .sec_cv {
+        flex-direction: column;
+        gap: 40px 0;
+    }
+}

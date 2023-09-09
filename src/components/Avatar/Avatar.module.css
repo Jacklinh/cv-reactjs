@@ -1,0 +1,17 @@
+.avatar_img {
+    position: absolute;
+    top: -140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.avatar_img  img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    border-radius: 20px;
+}
+@media screen and (max-width: 1024px) {
+    .avatar_img {
+        top: -160px;
+     }
+}

@@ -1,0 +1,39 @@
+.cv_contact {
+    background-color: var(--main-bg);
+    padding: 30px;
+    border-radius: 20px;
+}
+.cv_contact li {
+    border-bottom: 1px solid var(--main-borderColor);
+    padding: 10px 0;
+}
+.cv_contact li:last-child {
+    border-bottom: 0;
+}
+.cv_contact_item {
+    display: flex;
+    gap: 10px 20px;
+    align-items: center;
+}
+.cv_contact_icon {
+    width: 40px;
+    cursor: pointer;
+}
+.cv_contact_content {
+    flex: 1;
+    text-align: left;
+    color: #222222;
+}
+.contact_label {
+    font-size: 0.875rem;
+    color: var(--main-color);
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.contact_desc a {
+    color: inherit;
+}
+.contact_desc a:hover {
+    color: var(--main-color-hover);
+}

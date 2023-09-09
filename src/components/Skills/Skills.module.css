@@ -1,0 +1,36 @@
+.skill_list {
+    list-style: none;
+}
+.skill_list li {
+    margin-bottom: 20px;
+}
+.skill_list li:last-child {
+    margin-bottom: 0;
+}
+.skill_lablel {
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-color2);
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.skill_lablel .skill_progress_label {
+    padding-right: 10px;
+}
+.skill_progress {
+    position: relative;
+    height: 5px;
+    width: 100%;
+    background-color: var(--main-bg);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.skill_progress .percent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--main-color-hover);
+}
