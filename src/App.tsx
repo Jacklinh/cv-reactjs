@@ -18,7 +18,7 @@ function App() {
                         <aside className='cv_avatar'>
                             <div className="px-6 bg-white rounded-[20px] text-center relative">
                                 <Avatar />
-                                <div className="cv_avatar_content pt-[100px] pb-[20px] shadow-xl">
+                                <div className="cv_avatar_content pt-[100px] pb-[20px]">
                                     <Profile />
                                     <Contact />
                                 </div>
