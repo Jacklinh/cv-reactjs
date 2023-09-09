@@ -1,5 +1,4 @@
 import { personInfo } from '../../data/personInfo';
-import styles from './AboutMe.module.css';
 
 type SingleAboutMeType = {
     content: string

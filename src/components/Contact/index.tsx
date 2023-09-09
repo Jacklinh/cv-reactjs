@@ -1,5 +1,5 @@
 import styles from './Contact.module.css';
-import {FiSmartphone,FiMapPin,FiMail,FiCalendar } from "react-icons/fi";
+import {FiSmartphone} from "react-icons/fi";
 import { personInfo } from '../../data/personInfo';
 
 type SingleContacType = {
