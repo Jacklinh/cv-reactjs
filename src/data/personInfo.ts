@@ -6,14 +6,14 @@ export const personInfo = [
     name: 'Lê văn linh',
     career: 'Front-End Developer',
     socials: [
-        {id: 1, nameIcon:'facebook', icon: FiFacebook, link: 'https://www.facebook.com/rinlee138'},
-        {id: 2, nameIcon:'twitter', icon: FiTwitter, link: 'https://www.facebook.com/rinlee138'},
+        {id: 1, icon: FiFacebook, link: 'https://www.facebook.com/rinlee138'},
+        {id: 2, icon: FiTwitter, link: 'https://www.facebook.com/rinlee138'},
     ],
     contact: [
-        {id: 1, nameIcon: 'FiSmartphone', icon: FiSmartphone, label:'điện thoại', content: '0342681138'},
-        {id: 2, nameIcon: 'FiMapPin', icon: FiMapPin, label:'địa chỉ', content: 'Nguyễn Tất Thành, Đà Nẵng'},
-        {id: 3, nameIcon: 'FiMail', icon: FiMail, label:'Email', content: 'jacklinh79@gmail.com'},
-        {id: 4, nameIcon: 'FiCalendar', icon: FiCalendar, label:'Birthday', content: '05.04.1993'},
+        {id: 1, icon: FiSmartphone, label:'điện thoại', content: '0342681138'},
+        {id: 2, icon: FiMapPin, label:'địa chỉ', content: 'Nguyễn Tất Thành, Đà Nẵng'},
+        {id: 3, icon: FiMail, label:'Email', content: 'jacklinh79@gmail.com'},
+        {id: 4, icon: FiCalendar, label:'Birthday', content: '05.04.1993'},
     ],
     aboutme: [
         {id: 1, content: 'Mình là Lê Văn Linh, với niềm đam mê trong phát triển website cho các doanh nghiệp kinh doanh lĩnh vực truyền thông và công nghệ. Mình có khả năng lắng nghe và thấu hiểu mong muốn khách hàng nhanh giúp hoàn thành dự án đúng tiến độ.'},

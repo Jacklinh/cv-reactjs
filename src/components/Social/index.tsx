@@ -1,17 +1,15 @@
-import React from "react"; 
+
 import { personInfo } from '../../data/personInfo';
-// import { FiFacebook,FiTwitter } from "react-icons/fi";
 type SingleSocialType = {
     icon: string,
     link: string,
-    nameIcon: string
 }
 const SingleSocial = ({prop}:{prop: SingleSocialType}) => {
     const Icon = prop.icon;
     return (
         <>
              <li>
-                <a href={prop.link} className='social_btn social_blue'>{<Icon key={prop.nameIcon} />}</a>
+                <a href={prop.link} className='social_btn social_blue'>{<Icon />}</a>
             </li>
         </>
     )

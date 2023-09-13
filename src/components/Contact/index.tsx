@@ -5,7 +5,6 @@ type SingleContacType = {
     icon: string,
     label: string,
     content: string,
-    nameIcon: string
 }
 const SingleContact = ({prop}:{prop:SingleContacType}) => {
     const Icon = prop.icon;
@@ -13,7 +12,7 @@ const SingleContact = ({prop}:{prop:SingleContacType}) => {
         <li>
             <div className={styles.cv_contact_item}>
                 <div className={styles.cv_contact_icon}>
-                    <span className='social_btn drop-shadow-xl'><Icon key={prop.nameIcon} /></span>
+                    <span className='social_btn drop-shadow-xl'><Icon /></span>
                 </div>
                 <div className={styles.cv_contact_content}>
                     <p className={styles.contact_label}>{prop.label}</p>
