@@ -1,17 +1,19 @@
 import styles from './Contact.module.css';
-import {FiSmartphone} from "react-icons/fi";
 import { personInfo } from '../../data/personInfo';
 
 type SingleContacType = {
+    icon: string,
     label: string,
     content: string,
+    nameIcon: string
 }
 const SingleContact = ({prop}:{prop:SingleContacType}) => {
+    const Icon = prop.icon;
     return (
         <li>
             <div className={styles.cv_contact_item}>
                 <div className={styles.cv_contact_icon}>
-                    <span className='social_btn drop-shadow-xl'><FiSmartphone /></span>
+                    <span className='social_btn drop-shadow-xl'><Icon key={prop.nameIcon} /></span>
                 </div>
                 <div className={styles.cv_contact_content}>
                     <p className={styles.contact_label}>{prop.label}</p>
