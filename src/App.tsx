@@ -1,11 +1,14 @@
 
 import './App.css'
 import AboutMe from './components/AboutMe';
+import Achievements from './components/Achievements';
 
 import Avatar from './components/Avatar';
 import Contact from './components/Contact';
+import Course from './components/Courses';
 import Interests from './components/Interests';
 import Profile from './components/Profile';
+import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
 function App() {
@@ -28,8 +31,11 @@ function App() {
                             <AboutMe />
                             <Resume />
                             <Skills />
+                            <Course />
+                            <Achievements />
+                            <Projects />
                             <Interests />
-                            <p className="copyright">© 2023 All Rights Reserved by LE VAN LINH.</p>
+                            <p className="copyright">© 2024 All Rights Reserved by LE VAN LINH.</p>
                         </aside>
                     </section>
                 </div>

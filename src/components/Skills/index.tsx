@@ -20,7 +20,7 @@ const SingleSkills = ({prop}:{prop: SingleSkillsType}) => {
 const Skills = () => {
   return (
     <article className='box_article'>
-        <h2 className='heading'>Kỹ năng nghề nghiệp</h2>
+        <h2 className='heading'>Skills</h2>
         <ul className={styles.skill_list}>
             {
                 personInfo[0].skills.map((item) => <SingleSkills key={`SingleSkills_${item.id}`} prop={item} />)

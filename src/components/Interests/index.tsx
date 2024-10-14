@@ -13,7 +13,7 @@ const SingleInterests = ({prop}:{prop: SingleInterestsType}) => {
 const Interests = () => {
   return (
     <article className='box_article'>
-        <h2 className='heading'>Sở thích</h2>
+        <h2 className='heading'>Interests</h2>
         <ul className={styles.interests_list}>
             {
                 personInfo[0].interests.map((item) => <SingleInterests key={`SingleInterests_${item.id}`} prop={item} />)

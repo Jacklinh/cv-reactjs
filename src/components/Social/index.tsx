@@ -9,7 +9,7 @@ const SingleSocial = ({prop}:{prop: SingleSocialType}) => {
     return (
         <>
              <li>
-                <a href={prop.link} className='social_btn social_blue'>{<Icon />}</a>
+                <a href={prop.link} target='_blank' className='social_btn social_blue'>{<Icon />}</a>
             </li>
         </>
     )

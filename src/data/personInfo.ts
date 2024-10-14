@@ -1,41 +1,59 @@
-import { FiFacebook,FiTwitter,FiSmartphone,FiMapPin,FiMail,FiCalendar } from "react-icons/fi";
+import { FiFacebook,FiSmartphone,FiMapPin,FiMail,FiCalendar } from "react-icons/fi";
 export const personInfo = [
    {
     id: 1,
     avatar: './images/avatar.JPG',
     name: 'Lê văn linh',
-    career: 'Front-End Developer',
+    career: 'Developer',
     socials: [
-        {id: 1, icon: FiFacebook, link: 'https://www.facebook.com/rinlee138'},
-        {id: 2, icon: FiTwitter, link: 'https://www.facebook.com/rinlee138'},
+        {id: 1, icon: FiFacebook, link: 'https://www.facebook.com/rinlee138/'},
     ],
     contact: [
-        {id: 1, icon: FiSmartphone, label:'điện thoại', content: '0342681138'},
-        {id: 2, icon: FiMapPin, label:'địa chỉ', content: 'Nguyễn Tất Thành, Đà Nẵng'},
-        {id: 3, icon: FiMail, label:'Email', content: 'jacklinh79@gmail.com'},
-        {id: 4, icon: FiCalendar, label:'Birthday', content: '05.04.1993'},
+        {id: 1, icon: FiSmartphone, label:'', content: '0342681138'},
+        {id: 2, icon: FiMapPin, label:'', content: '884 Nguyễn Lương Bằng, P. Hoà Hiệp Nam, Q.Liên Chiểu, Đà Nẵng'},
+        {id: 3, icon: FiMail, label:'', content: 'jacklinh79@gmail.com'},
+        {id: 4, icon: FiCalendar, label:'', content: 'April 5 , 1993'},
     ],
     aboutme: [
-        {id: 1, content: 'Mình lập trình viên Frontend với hơn 5 năm chuyên môn về phát triển giao diện người dùng bằng HTML, CSS, JavaScript, CMS, hiện đang chuyển mình mạnh mẽ thành một MERN Stack Developer toàn diện. Với sự đam mê phát triển các ứng dụng web hiện đại, mình không chỉ làm chủ frontend mà còn mở rộng kỹ năng vào backend với Node.js, Express.js, và MongoDB, Reactjs, Nextjs. Luôn chú trọng đến hiệu suất, tính bảo mật, và trải nghiệm người dùng, mình khao khát mang lại các giải pháp công nghệ đột phá, vừa tối ưu vừa có khả năng mở rộng.'},
+        {id: 1, content: 'I am a Frontend developer with over 5 years of expertise in developing user interfaces using HTML, CSS, JavaScript, CMS, and am currently transforming myself into a comprehensive MERN Stack Developer. With a passion for developing modern web applications, I not only master the frontend but also expand my skills to the backend with Node.js, Express.js, and MongoDB, Reactjs, Nextjs. Always focusing on performance, security, and user experience, I aspire to bring breakthrough technology solutions that are both optimized and scalable.'},
     ],
     education: [
         {id: 1, time: '2012-2015', name: 'Đại học sư phạm kỹ thuật Đà nẵng', content: 'Cử nhân nghành hệ thống thông tin quản lý'},
-        {id: 2, time: '2023-nay', name: 'Trung tâm Aptech đà nẵng', content: 'Reactjs'}
     ],
     experience: [
-        {id: 1, time: '2016-2018', name: 'Công ty THHH Themesflat ', content: 'Developer Front End'},
-        {id: 2, time: '2018-nay', name: 'Công ty thiết kế toàn cầu', content: 'Designer'}
+        {id: 1, time: '2017-2018', name: 'Công ty cổ phần công nghệ Themesflat ', content: 'Developer Front-End PSD To HTML'},
+        {id: 2, time: '2018-Presend', name: 'Công ty thiết kế toàn cầu - GLOBAL DESIGN IT Co,ltd ', content: 'Developer Front-End CMS'}
     ],
     skills: [
-        {id: 1, name: 'html', percent: 90},
-        {id: 2, name: 'css', percent: 90},
-        {id: 3, name: 'javascript', percent: 80},
-        {id: 4, name: 'reactjs', percent: 50},
+        {id: 1, name: 'HTML5, CSS3, Bootstrap, Tailwind', percent: 100},
+        {id: 2, name: 'JavaScript, Jquery', percent: 80},
+        {id: 3, name: 'Photoshop, Ant Design', percent: 80},
+        {id: 4, name: 'Github, Sourcetree', percent: 80},
+        {id: 5, name: 'Reactjs, TypeScript, Nextjs', percent: 60},
+        {id: 6, name: 'MongoDB, ExpressJS', percent: 60},
+        {id: 7, name: 'NodeJS, ExpressJS', percent: 60},
     ],
     interests: [
-        {id: 1, name: 'Phá code'},
-        {id: 2, name: 'Du lịch'},
-        {id: 3, name: 'Đọc truyện'},
+        {id: 1, name: 'chess'},
+        {id: 2, name: 'badminton'},
+        {id: 3, name: 'learn new technology'},
+    ],
+    courses: [
+        {id: 1, name: 'Reactjs Aptech Batch  R&N JS 34', desc: 'Github, Tailwind CSS, Reactjs'},
+        {id: 2, name: 'Nodejs Aptech - Batch R&N JS 39', desc: 'Node.js, MongoDB, ExpressJS, Nextjs'},
+    ],
+    achievements: [
+        {id: 1, name: 'MVP 2020, 2022, 2023'},
+    ],
+    projects: [
+        {id: 1, foundation: 'CMS,HTML5, CSS3, Jquery ', name: 'https://www.city.setagaya.lg.jp/'},
+        {id: 2, foundation: 'CMS,HTML5, CSS3, Jquery', name: 'https://www.city.bunkyo.lg.jp/'},
+        {id: 3, foundation: 'CMS,HTML5, CSS3, Jquery', name: 'https://www.city.shizuoka.lg.jp/'},
+        {id: 4, foundation: 'CMS,HTML5, CSS3, Jquery', name: 'https://www.city.meguro.tokyo.jp/'},
+        {id: 5, foundation: 'CMS,HTML5, CSS3, Jquery', name: 'https://www.city.chuo.lg.jp/index.html'},
+        {id: 6, foundation: 'Reactjs', name: 'https://jacklinh.github.io/cv-reactjs/'},
+        {id: 7, foundation: 'Reactjs fetch api', name: 'https://github.com/Jacklinh/weather-app'},
+        {id: 8, foundation: 'in development - A full stack e commerce web application built with React.js, Node.js, Express.js and MongoDB, Nextjs', name: 'https://github.com/Jacklinh/Nodejs-basic-note/tree/main/RinShop'},
     ]
    }
 ]

@@ -1,6 +1,6 @@
 .avatar_img {
     position: absolute;
-    top: -140px;
+    top: -170px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -12,6 +12,6 @@
 }
 @media screen and (max-width: 1024px) {
     .avatar_img {
-        top: -160px;
+        top: -170px;
      }
 }

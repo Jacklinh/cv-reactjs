@@ -11,10 +11,7 @@
     width: 100%;
 }
 .bg_home {
-    background: url(../public/images/bg_home.jpg) top center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+    background: url(../public/images/bg_home.jpg) top left repeat;
 }
 .sec_cv {
     gap: 0 40px;
