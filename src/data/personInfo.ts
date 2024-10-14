@@ -16,8 +16,7 @@ export const personInfo = [
         {id: 4, icon: FiCalendar, label:'Birthday', content: '05.04.1993'},
     ],
     aboutme: [
-        {id: 1, content: 'Mình là Lê Văn Linh, với niềm đam mê trong phát triển website cho các doanh nghiệp kinh doanh lĩnh vực truyền thông và công nghệ. Mình có khả năng lắng nghe và thấu hiểu mong muốn khách hàng nhanh giúp hoàn thành dự án đúng tiến độ.'},
-        {id: 2, content: 'Thành thạo ngôn ngữ lập trình HTML, CSS, Javascript, Reactjs. Mình đang tìm kiếm sự nghiệp nâng cao với các thử thách, cơ hội khi quyết định tham gia vào công ty. Với Ưu điểm bản thân là học hỏi nhanh, trung thực và có trách nhiệm công việc. Khuyết điểm là ít nói, ngại khi phát biểu trước đám đông.'}
+        {id: 1, content: 'Mình lập trình viên Frontend với hơn 5 năm chuyên môn về phát triển giao diện người dùng bằng HTML, CSS, JavaScript, CMS, hiện đang chuyển mình mạnh mẽ thành một MERN Stack Developer toàn diện. Với sự đam mê phát triển các ứng dụng web hiện đại, mình không chỉ làm chủ frontend mà còn mở rộng kỹ năng vào backend với Node.js, Express.js, và MongoDB, Reactjs, Nextjs. Luôn chú trọng đến hiệu suất, tính bảo mật, và trải nghiệm người dùng, mình khao khát mang lại các giải pháp công nghệ đột phá, vừa tối ưu vừa có khả năng mở rộng.'},
     ],
     education: [
         {id: 1, time: '2012-2015', name: 'Đại học sư phạm kỹ thuật Đà nẵng', content: 'Cử nhân nghành hệ thống thông tin quản lý'},
