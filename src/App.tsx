@@ -11,6 +11,7 @@ import Profile from './components/Profile';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
+import SkillsDetails from './components/Skills Details';
 function App() {
 
     return (
@@ -37,6 +38,9 @@ function App() {
                             <Interests />
                             <p className="copyright">© 2024 All Rights Reserved by LE VAN LINH.</p>
                         </aside>
+                    </section>
+                    <section className='my-[50px] cv_content'>
+                        <SkillsDetails />
                     </section>
                 </div>
             </main>
